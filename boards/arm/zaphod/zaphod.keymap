@@ -52,7 +52,7 @@
                         bindings = <
       &kp Q &kp W &kp F &kp P &kp G   &kp J &kp L  &kp U     &kp Y   &kp SEMI    
     &mt LCMD A &mt LALT R &mt LSHFT S &mt LCTRL T &kp D   &kp H &mt RCTRL N  &mt RSHFT E     &mt RALT I   &mt RCMD O 
-    &kp Z &kp X &kp C &kp V &kp B   &kp K &kp M  &kp COMMA &kp DOT &kp FSLH 
+    &kp Z &kp X &kp C &kp V &kp B   &kp K &kp M  &kp COMMA &kp DOT &kp RET 
                    &tog 3   &lt 1 SPACE  &lt 2 SPACE &kp RET
 
                         >;
@@ -63,7 +63,7 @@
                         bindings = <
        &kp F1       &kp F2       &kp F3       &kp F4       &kp F5         	&trans   	&kp N7  &kp N8 	&kp N9  	&kp BSPC 	
        &kp F6       &kp F7       &kp F8      &kp F9      &kp F10 		&trans 		&kp N4	&kp N5	&kp N6	&kp SQT 	
-     &bt BT_SEL 0       &bt BT_SEL 1       &bt BT_SEL 2       &bt BT_SEL 3       &bt BT_CLR         	&kp N0   &kp N1   &kp N2 	&kp N3  	&kp RET  			 
+     &bt BT_SEL 0       &bt BT_SEL 1       &bt BT_SEL 2       &bt BT_SEL 3       &bt BT_CLR         	&kp N0   &kp N1   &kp N2 	&kp N3  	&kp FSLH			 
                           	    &bootloader        &trans          	&kp N0  &kp DOT   
                         >;
                 };
