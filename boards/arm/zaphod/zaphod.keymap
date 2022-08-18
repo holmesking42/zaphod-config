@@ -20,7 +20,7 @@
 };
 
 &mmv {
-    time-to-max-speed-ms = <65>;
+    time-to-max-speed-ms = <60>;
 };
 
 &mwh {
