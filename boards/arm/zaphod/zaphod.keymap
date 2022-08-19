@@ -72,7 +72,7 @@
                         bindings = <
     	&kp ESC  &trans &kp UP &trans &kp C_VOL_UP     &trans &kp LPAR 	&kp RPAR 	&kp LT	&kp GT 
     &kp TAB &kp LEFT &kp DOWN &kp RIGHT &kp C_VOL_DN    &trans &kp LBRC &kp RBRC &kp LBKT &kp RBKT 
-    &kp CAPS &trans &trans &trans &kp K_MUTE   	 &trans  &kp EQUAL &kp MINUS &kp BSLH &kp GRAVE 
+    &kp CAPS &kp C_PREV &kp CC_PP &kp C_NEXT &kp K_MUTE   	 &trans  &kp EQUAL &kp MINUS &kp BSLH &kp GRAVE 
                     	     &trans    &trans       &trans &trans
 
                         >;
