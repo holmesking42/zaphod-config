@@ -53,7 +53,7 @@
 
                 letters {
 
-
+label = "Letters";
                         bindings = <
       &kp Q &kp W &kp F &kp P &kp G   &kp J &kp L  &kp U     &kp Y   &kp BSPC    
     &mt LCMD A &mt LALT R &mt LSHFT S &mt LCTRL T &kp D   &kp H &mt RCTRL N  &mt RSHFT E     &mt RALT I   &mt RCMD O 
@@ -65,6 +65,7 @@
                         
                 };
                 numbers {
+label = "Numbers";
                         bindings = <
        &kp F1       &kp F2       &kp F3       &kp F4       &kp F5         	&trans   	&kp N7  &kp N8 	&kp N9  	&kp SEMI 	
        &kp F6       &kp F7       &kp F8      &kp F9      &kp F10 		&trans 		&kp N4	&kp N5	&kp N6	&kp SQT 	
@@ -74,6 +75,7 @@
                 };
 
                 brackets {
+		label = "Brackets";
                         bindings = <
     	&kp ESC  &trans &kp UP &trans &kp C_VOL_UP     &trans &kp LPAR 	&kp RPAR 	&kp LT	&kp GT 
     &kp TAB &kp LEFT &kp DOWN &kp RIGHT &kp C_VOL_DN    &trans &kp LBRC &kp RBRC &kp LBKT &kp RBKT 
@@ -84,6 +86,7 @@
                 };
                 
                 mouse {
+		label = "Mouse";
 			bindings = <
            &trans           &trans           &trans           &trans           &trans      &trans           &kp PAGE_UP          &mmv MOVE_UP           &kp PAGE_DOWN           &kp DEL                
            &kp LCMD           &kp LALT           &kp LSHFT           &kp LCTRL           &trans              &trans           &mmv MOVE_LEFT       &mmv MOVE_DOWN       &mmv MOVE_RIGHT        &trans          
