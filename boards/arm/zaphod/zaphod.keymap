@@ -9,6 +9,13 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/mouse.h>
 
+#define NAV_L 1
+#define OTH_L 2
+#define NUM_L 3
+#define SYM_L 4
+#define FUN_L 5
+#define MED_L 6
+
 
 #define AS(keycode) &as LS(keycode) keycode
 
