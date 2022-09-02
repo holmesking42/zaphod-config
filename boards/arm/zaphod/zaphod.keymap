@@ -16,7 +16,6 @@
 
 
 #define AS(keycode) &as LS(keycode) keycode
-#define TOG_MO(layer) &tog_mo layer layer
 
 &mt {
   tapping-term-ms = <200>;
@@ -44,15 +43,6 @@
                 flavor = "tap-preferred";
                 bindings = <&kp>, <&kp>;
             };
-	    
-        tog_mo: behavior_mo_tog {
-            compatible = "zmk,behavior-hold-tap";
-            label = "mo_tog";
-            #binding-cells = <2>;
-            flavor = "hold-preferred";
-            tapping-term-ms = <200>;
-            bindings = <&tog>, <&mo>;
-        };
     };
 
 
@@ -66,7 +56,7 @@ label = "lmnt79";
       &kp Q &kp W &kp F &kp P &kp G   &kp J &kp L  &kp U     &kp Y   &kp BSPC    
     &mt LCMD A &mt LALT R &mt LSHFT S &mt LCTRL T &kp D   &kp H &mt RCTRL N  &mt RSHFT E     &mt RALT I   &mt RCMD O 
     &kp Z &kp X &kp C &kp V &kp B   &kp K &kp M  &kp COMMA &kp DOT &kp RET 
-                   TOG_MO(3)   &lt 1 SPACE  &lt 2 SPACE &kp DEL
+                   &tog_mo 3 3   &lt 1 SPACE  &lt 2 SPACE &kp DEL
 
                         >;
 
