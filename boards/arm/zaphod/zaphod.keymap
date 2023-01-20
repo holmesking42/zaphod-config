@@ -98,7 +98,7 @@ label = "Num";
 			bindings = <
            &trans           &trans           &trans           &trans           &trans      &trans           &kp PAGE_UP          &mmv MOVE_UP           &kp PAGE_DOWN           &kp DEL                
            &kp LCMD           &kp LALT           &kp LSHFT           &kp LCTRL           &trans              &trans           &mmv MOVE_LEFT       &mmv MOVE_DOWN       &mmv MOVE_RIGHT        &trans          
-           &trans       	&trans       	&trans     	&trans       	&trans		                        &trans           &kp LEFT           &trans           &kp RIGHT           &trans                
+           &trans       	&trans       	&trans     	&trans       	&trans		                        &kp LCMD           &kp LEFT           &kb LSHFT           &kp RIGHT           &trans                
                                           &trans         &trans                                   &mkp LCLK          &mkp RCLK                   
 >;
 		};
